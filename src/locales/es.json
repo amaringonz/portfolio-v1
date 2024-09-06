@@ -1,0 +1,8 @@
+{
+  "Meta": {
+    "Home": {
+      "title": "{author}",
+      "description": "{author} es un desarrollador Full-Stack con experiencia en .NET, JavaScript, PostgreSQL y MySQL. Crea soluciones escalables y optimizadas, usando Docker y plataformas en la nube (AWS, Azure & GCP). Experto en Next.js, React y desarrollo de APIs, entregando código limpio y mantenible."
+    }
+  }
+}
