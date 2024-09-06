@@ -15,7 +15,8 @@ export const generateMetadata = async ({ params: { locale } }: MetaDataProps) =>
   };
 };
 
-const Page = ({ params: { locale } }: LayoutProps) => {
+const Page = ({ params }: LayoutProps) => {
+  const { locale } = params;
   unstable_setRequestLocale(locale);
 
   return (
