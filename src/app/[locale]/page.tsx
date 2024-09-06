@@ -1,6 +1,6 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 
-import type { LayoutProps, MetaDataProps } from '@/types';
+import type { MetaDataProps } from '@/types';
 import { ThemeConfig } from '@/utils';
 
 export const generateMetadata = async ({ params: { locale } }: MetaDataProps) => {
@@ -15,9 +15,8 @@ export const generateMetadata = async ({ params: { locale } }: MetaDataProps) =>
   };
 };
 
-const HomePage = async ({ params }: LayoutProps) => {
-  const { locale } = params;
-  unstable_setRequestLocale(locale);
+const Page = (props: { params: { locale: string } }) => {
+  unstable_setRequestLocale(props.params.locale);
 
   return (
     <>
@@ -26,4 +25,4 @@ const HomePage = async ({ params }: LayoutProps) => {
   );
 };
 
-export default HomePage;
+export default Page;
