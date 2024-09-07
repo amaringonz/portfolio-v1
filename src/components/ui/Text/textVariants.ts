@@ -3,6 +3,8 @@ import { cva } from 'class-variance-authority';
 const textVariants = cva('', {
   variants: {
     size: {
+      'xs': 'text-xs tracking-wide',
+      'sm': 'text-sm tracking-widest',
       'base': 'text-base',
       'lg': 'text-lg tracking-tight sm:text-xl',
       '4xl': 'text-4xl tracking-tight sm:text-5xl',
@@ -15,6 +17,7 @@ const textVariants = cva('', {
     weight: {
       light: 'font-light',
       normal: 'font-normal',
+      semibold: 'font-semibold',
       medium: 'font-medium',
       bold: 'font-bold',
     },
@@ -22,6 +25,11 @@ const textVariants = cva('', {
       left: 'text-left',
       center: 'text-center',
       right: 'text-right',
+    },
+    transform: {
+      uppercase: 'uppercase',
+      lowercase: 'lowercase',
+      capitalize: 'capitalize',
     },
     variant: {
       primary: 'text-foreground',

@@ -2,7 +2,15 @@ import type { LocalePrefix } from 'node_modules/next-intl/dist/types/src/routing
 
 export type LanguageProps = 'es' | 'en';
 
-type ThemeConfigProps = {
+export type ExperienceProps = {
+  expId: number;
+  yearStart: Date;
+  yearEnd: Date;
+  href?: string;
+  languages: Array<string>;
+};
+
+export type ThemeConfigProps = {
   author: string;
   shortAuthor: string;
   //
@@ -12,6 +20,7 @@ type ThemeConfigProps = {
     url: string;
   }> | null;
   //
+  experience: ExperienceProps[];
   availableLanguages: LanguageProps[];
   defaultLanguage: LanguageProps;
   prefixLanguage: LocalePrefix; // 'as-needed' | 'always' | 'never';

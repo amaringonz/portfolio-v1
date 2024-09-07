@@ -4,6 +4,10 @@ const config: Config = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
   theme: {
     colors: {
+      primary: {
+        DEFAULT: 'rgba(var(--primary), <alpha-value>)',
+        foreground: 'rgba(var(--primary-foreground), <alpha-value>)',
+      },
       background: {
         DEFAULT: 'rgb(var(--background))',
       },

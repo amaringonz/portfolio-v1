@@ -24,6 +24,7 @@ export const Text = forwardRef<HTMLDivElement, TextProps>(
       weight,
       align,
       variant,
+      transform,
       ...props
     },
     ref,
@@ -40,9 +41,10 @@ export const Text = forwardRef<HTMLDivElement, TextProps>(
           weight,
           align,
           variant,
+          transform,
           className,
         }),
-      ), [size, overflow, weight, align, variant, className]);
+      ), [size, overflow, weight, align, variant, transform, className]);
 
     return (
       <Comp

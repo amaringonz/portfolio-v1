@@ -24,12 +24,54 @@
           "title": "Email",
           "description": "Envíame un correo electrónico"
         }
+      },
+      "About": {
+        "title": "Sobre mí",
+        "description": "Conoce más sobre mi experiencia y habilidades"
+      },
+      "Experience": {
+        "title": "Experiencia",
+        "description": "Descubre mi trayectoria profesional y proyectos destacados"
       }
     },
     "Paragraphs": {
       "Author": {
         "title": "Desarrollador Full-Stack",
         "resume": "Desarrollo experiencias digitales eficientes, escalables y accesibles, con soluciones de alto rendimiento y un enfoque en la optimización y usabilidad."
+      },
+      "About": {
+        "resume_1": "Comencé a programar de manera autodidacta a los 13 años, motivado por mi curiosidad y el deseo de aprender. Sin acceso a tutores formales, me apoyé en tutoriales de YouTube, foros como Stackoverflow y libros de biblioteca. Aunque enfrenté numerosos retos y fracasos, estas experiencias me permitieron construir una sólida lógica de programación, enfocada en resolver problemas de manera eficiente y optimizar el código.",
+        "resume_2": "A lo largo de los años, he perfeccionado mis habilidades mediante la creación de proyectos reales, desde aplicaciones comerciales hasta plataformas de entretenimiento. Cada proyecto ha sido una oportunidad para expandir mis conocimientos y encontrar soluciones innovadoras a problemas complejos. Actualmente, me dedico a desarrollar soluciones tecnológicas personalizadas para empresas y particulares, siempre adaptándome a las necesidades específicas de cada cliente.",
+        "resume_3": "Mi enfoque va más allá de lo técnico; busco generar un impacto positivo tanto en el entorno de desarrollo como en la experiencia del usuario final. Me apasiona crear proyectos que no solo sean funcionales, sino que también aporten valor real y se diferencien por su impacto. Además de la programación, disfruto hacer ejercicio, participar en voluntariados, leer y pasar tiempo con mi familia."
+      },
+      "Experience": {
+        "1": {
+          "title": "Desarrollador Web",
+          "description": "Desarrollé una tienda de comercio electrónico en Shopify utilizando Liquid, HTML, CSS, JavaScript y jQuery. Personalicé la API de Shopify para la gestión de inventario y pedidos, e integré Meta Pixel y Google Analytics, logrando un aumento del 300% en las ventas mediante campañas publicitarias dirigidas. Aseguré el sitio con SSL, HSTS y gestioné pasarelas de pago mediante la API de Shopify."
+        },
+        "2": {
+          "title": "Desarrollador de Sistemas de Gestión de Contenidos (CMS)",
+          "description": "Construí un CMS con NextJS, Node.js y MySQL, implementando un panel de administración en tiempo real utilizando WebSockets. Optimicé el rendimiento con caché Redis y mejoré la eficiencia de moderación en un 45%. Implementé protocolos de seguridad con Cloudflare, AWS WAF y autenticación JWT, defendiendo contra ataques de inyección SQL y DDoS."
+        },
+        "3": {
+          "title": "Desarrollador Web",
+          "description": "Desarrollé un sitio web en WordPress usando PHP, HTML, CSS, JavaScript, integrando plugins personalizados para un sistema de reservas en línea y control de acceso basado en roles (RBAC) para la seguridad de los usuarios. Reduje la dependencia de servicios de terceros construyendo un backend autogestionado con tareas programadas (cron jobs) y copias de seguridad automáticas. Integré Stripe, PayPal, Google Pay y Apple Pay mediante APIs de pago para transacciones seguras."
+        }
+      },
+      "Footer": {
+        "paragraph_1": "Codificado en ",
+        "paragraph_2": "WebStorm (JetBrains)",
+        "paragraph_3": " alojado en ",
+        "paragraph_4": "Vercel",
+        "paragraph_5": " y construido con ",
+        "paragraph_6": "Next.js",
+        "paragraph_7": ", ",
+        "paragraph_8": "Iconify",
+        "paragraph_9": ", ",
+        "paragraph_10": "Tailwind CSS",
+        "paragraph_11": " e ",
+        "paragraph_12": "Inter",
+        "paragraph_13": "."
       }
     }
   }

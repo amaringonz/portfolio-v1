@@ -1,8 +1,8 @@
 import { useTranslations } from 'next-intl';
 import { useMemo } from 'react';
 
-import { IconExternal } from '@/components/interface';
-import { Column, Flex, Text } from '@/components/ui';
+import { IconExternal, Navigator } from '@/components/interface';
+import { Base, Column, Flex, Text } from '@/components/ui';
 import { ThemeConfig } from '@/utils';
 
 const Header = () => {
@@ -14,7 +14,7 @@ const Header = () => {
     }
 
     return (
-      <Flex>
+      <Flex items="center">
         {ThemeConfig.network.map(social => (
           <IconExternal
             key={social.icon}
@@ -27,10 +27,10 @@ const Header = () => {
         ))}
       </Flex>
     );
-  }, []);
+  }, [t]);
 
   return (
-    <Column as="header" gap={4}>
+    <Column as="header" className="lg:sticky lg:top-0 lg:flex lg:max-h-screen lg:w-1/2 lg:flex-col lg:justify-between lg:py-24" gap={4}>
       <Column>
         <Text as="h1" size="4xl" weight="bold" overflow="truncate">
           {ThemeConfig.shortAuthor}
@@ -38,9 +38,12 @@ const Header = () => {
         <Text as="h2" size="lg" weight="medium">
           {t('Paragraphs.Author.title')}
         </Text>
-        <Text variant="secondary">
+        <Text variant="secondary" className="max-w-md">
           {t('Paragraphs.Author.resume')}
         </Text>
+        <Base className="mt-12 hidden lg:block">
+          <Navigator />
+        </Base>
       </Column>
       {getNetwork}
     </Column>

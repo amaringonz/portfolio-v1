@@ -21,6 +21,10 @@ export const Base = forwardRef<HTMLDivElement, BaseProps>(
       className,
       display,
       gap,
+      wrap,
+      center,
+      items,
+      justify,
       ...props
     },
     ref,
@@ -34,9 +38,13 @@ export const Base = forwardRef<HTMLDivElement, BaseProps>(
         baseVariants({
           display,
           className,
+          wrap,
           gap,
+          center,
+          items,
+          justify,
         }),
-      ), [className, display, gap]);
+      ), [justify, center, className, display, gap, items, wrap]);
 
     return (
       <Comp

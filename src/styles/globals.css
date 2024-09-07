@@ -6,15 +6,17 @@
   --background: 24, 25, 26;
   --foreground: 228, 230, 235;
   --foreground-secondary: 176, 179, 184;
+  --primary: 29, 133, 252;
+  --primary-foreground: 117, 182, 255;
 }
 
 @layer base {
   html {
-    @apply bg-background text-foreground font-sans;
+    @apply bg-background text-foreground font-sans scroll-smooth;
   }
 
   body {
-    @apply antialiased flex flex-col h-dvh min-h-dvh overflow-x-hidden leading-relaxed px-6 py-12 gap-4;
+    @apply antialiased flex flex-col min-h-dvh overflow-x-hidden leading-relaxed gap-4;
   }
 
   main {
