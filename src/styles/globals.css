@@ -3,21 +3,23 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: 24, 25, 26;
+  --foreground: 228, 230, 235;
+  --foreground-secondary: 176, 179, 184;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer base {
+  html {
+    @apply bg-background text-foreground font-sans;
   }
-}
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  body {
+    @apply antialiased flex flex-col h-dvh min-h-dvh overflow-x-hidden leading-relaxed px-6 py-12 gap-4;
+  }
+
+  main {
+    @apply flex-1;
+  }
 }
 
 @layer utilities {

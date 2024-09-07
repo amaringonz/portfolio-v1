@@ -4,6 +4,13 @@ export type LanguageProps = 'es' | 'en';
 
 type ThemeConfigProps = {
   author: string;
+  shortAuthor: string;
+  //
+  network: Array<{
+    type: 'GitHub' | 'LinkedIn' | 'Instagram' | 'Email';
+    icon: string;
+    url: string;
+  }> | null;
   //
   availableLanguages: LanguageProps[];
   defaultLanguage: LanguageProps;

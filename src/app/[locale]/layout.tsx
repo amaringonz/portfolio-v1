@@ -1,6 +1,7 @@
 import '@/styles/globals.css';
 
 import type { Metadata } from 'next';
+import { Inter } from 'next/font/google';
 import { NextIntlClientProvider, useMessages } from 'next-intl';
 import { unstable_setRequestLocale } from 'next-intl/server';
 
@@ -32,6 +33,8 @@ export const metadata: Metadata = {
   ],
 };
 
+const font = Inter({ subsets: ['latin'], variable: '--theme-font' });
+
 export function generateStaticParams() {
   return ThemeConfig.availableLanguages.map(locale => ({ locale }));
 }
@@ -43,7 +46,7 @@ const RootLayout = ({ children, params }: LayoutProps) => {
   const messages = useMessages();
 
   return (
-    <html lang={locale}>
+    <html lang={locale} className={font.variable}>
       <body>
         <NextIntlClientProvider
           locale={params.locale}
