@@ -28,10 +28,9 @@ const Navigator = () => {
           }
         });
       },
-      { threshold: 0.5 }, // Adjust threshold as needed
+      { threshold: 0.5 },
     );
 
-    // Copy the sectionsRef.current into a local variable
     const currentSections = sectionsRef.current;
 
     sections.forEach((id) => {
