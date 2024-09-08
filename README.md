@@ -1,9 +1,9 @@
 # Alejandro Marín González - Portfolio-v1
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Next.js](https://img.shields.io/badge/Next.js-v13.0-blue.svg)
+![Next.js](https://img.shields.io/badge/Next.js-v14.2-blue.svg)
 ![Node.js](https://img.shields.io/badge/Node.js-v18.0-green.svg)
-![TypeScript](https://img.shields.io/badge/TypeScript-v4.9-blue.svg)
+![TypeScript](https://img.shields.io/badge/TypeScript-v5-blue.svg)
 [![CodeFactor](https://www.codefactor.io/repository/github/amaringonz/portfolio-v1/badge)](https://www.codefactor.io/repository/github/amaringonz/portfolio-v1)
 
 ## Overview
