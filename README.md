@@ -1,3 +1,5 @@
+![image](https://github.com/user-attachments/assets/fadaa1a5-5a48-4f4f-ab3a-45bcbb2a4676)
+
 # Alejandro Marín González - Portfolio-v1
 
 ![License](https://img.shields.io/badge/license-MIT-blue.svg)
