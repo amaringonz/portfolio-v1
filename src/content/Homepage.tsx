@@ -5,6 +5,7 @@ import { useTranslations } from 'next-intl';
 import { Experience, Section } from '@/components/interface';
 import { Base, Column, Text } from '@/components/ui';
 import { ThemeConfig } from '@/utils';
+import { ExperienceProps } from '@/types';
 
 const Homepage = () => {
   const t = useTranslations('UI');
@@ -14,9 +15,14 @@ const Homepage = () => {
       return null;
     }
 
+    const sortExperienceFunction = (experience1: ExperienceProps, experience2: ExperienceProps): number => { 
+      return (experience2?.yearStart?.getTime() - experience1?.yearStart?.getTime() ||
+              experience1?.yearEnd?.getTime() - experience2?.yearEnd?.getTime()) 
+    }
+    const sortedExperience = ThemeConfig?.experience?.sort(sortExperienceFunction) || [];
     return (
       <Column gap={16}>
-        {ThemeConfig.experience.map((experience) => {
+        {sortedExperience.map((experience) => {
           return (
             <Experience
               key={experience.expId}
