@@ -1,129 +1,82 @@
-![image](https://github.com/user-attachments/assets/fadaa1a5-5a48-4f4f-ab3a-45bcbb2a4676)
+# Portfolio-v1 made Next.js 14+, Tailwind CSS 3.4, and TypeScript
+![Cover](https://github.com/user-attachments/assets/6db130ba-cad6-402a-9e25-5150fe00bdfe)
 
-# Alejandro Marín González - Portfolio-v1
+🚀 Next.js Portfolio Template with App Router, Tailwind CSS, and TypeScript, built for an exceptional developer experience. It features Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Commitlint, VSCode integration, Tailwind CSS, Storybook, and multi-language (i18n) support, all optimized for seamless development. Ready for Next.js 15, this template is perfect for creating your own portfolio. Clone it and customize it to showcase your work. Check out the [live demo](https://amaringonz.vercel.app) at my personal portfolio.
 
-![License](https://img.shields.io/badge/license-MIT-blue.svg)
-![Next.js](https://img.shields.io/badge/Next.js-v14.2-blue.svg)
-![Node.js](https://img.shields.io/badge/Node.js-v18.0-green.svg)
-![TypeScript](https://img.shields.io/badge/TypeScript-v5-blue.svg)
-[![CodeFactor](https://www.codefactor.io/repository/github/amaringonz/portfolio-v1/badge)](https://www.codefactor.io/repository/github/amaringonz/portfolio-v1)
+### Features
+Prioritizing developer experience, this template offers a highly flexible code structure, allowing you to keep only what's essential:
 
-## Overview
+- ⚡ [Next.js](https://nextjs.org) with App Router support
+- 🔥 Type checking [TypeScript](https://www.typescriptlang.org)
+- 💎 Integrate with [Tailwind CSS](https://tailwindcss.com)
+- ✅ Strict Mode for TypeScript and React 18
+- 🌐 Multi-language support via [next-intl](https://next-intl-docs.vercel.app/)
+- ♻️ Type-safe environment variables using T3 Env
+- 📏 Linter with [ESLint](https://eslint.org) (Next.js, Core Web Vitals, Tailwind CSS, Antfu configuration)
+- 💖 Code formatting with [Prettier](https://prettier.io)
+- 🦊 Git Hooks with Husky
+- 🚫 Staged file linting with Lint-staged
+- 🚓 Git commit linting with Commitlint
+- 📓 Standard commit messages with Commitizen
+- 🦺 Unit testing with Vitest and React Testing Library
+- 👷 Test automation with GitHub Actions
+- 🎉 UI development with Storybook
+- 🎁 Automatic changelog generation via Semantic Release
+- 💡 Absolute Imports using `@` prefix
+- 🗂 VSCode configuration: Debug, Settings, Tasks, Extensions
+- 🤖 SEO metadata, JSON-LD, and Open Graph tags
+- 🗺️ Auto-generated Sitemap.xml and robots.txt
+- ⚙️ Bundle analysis with [@next/bundle-analyzer](https://www.npmjs.com/package/@next/bundle-analyzer)
+- 🌈 Free minimalist theme included
+- 💯 Optimized for maximum Lighthouse scores
 
-This is version 1 of my personal portfolio website, showcasing my full-stack development skills, projects, and professional experience. Built with **Next.js**, it is optimized for performance and responsive across all devices. This portfolio emphasizes web development capabilities and provides a gateway for recruiters and collaborators to explore my work.
+Built-in Features from Next.js:
 
-**Live Site**: [amaringonz.vercel.app](https://amaringonz.vercel.app)
+- ☕ Minified HTML & CSS for optimal performance
+- 💨 Live reload for real-time development changes
+- ✅ Cache busting to ensure updated content delivery
 
-## Features
+### Philosophy
 
-- **Responsive Design**: Adaptable to all screen sizes.
-- **Smooth Navigation**: Utilizes the `IntersectionObserver` API for active section highlighting.
-- **Project Showcases**: Detailed descriptions of key projects, with live links and tech stacks.
-- **Performance Optimization**: Includes lazy loading, caching, and more.
+- Complete transparency: nothing is hidden, allowing full control for adjustments to match your needs.
+- Free to start with no upfront costs
+- Simple to customize
+- Minimal, clean code
+- Unstyled, flexible template
+- SEO-friendly by design
+- 🚀 Ready for production deployment
 
-## Technologies
+### Requirements
 
-- **Frontend**: 
-  - [Next.js](https://nextjs.org/)
-  - [React](https://reactjs.org/)
-  - [TypeScript](https://www.typescriptlang.org/)
-  - [Tailwind CSS](https://tailwindcss.com/)
+- Node.js 20+ and npm
 
-- **Backend**:
-  - [Node.js](https://nodejs.org/)
+### Getting started
 
-- **Additional Tools**:
-  - [Iconify](https://iconify.design/) for icons
-  - [Inter](https://rsms.me/inter/) for typography
-  - **Google Analytics**, **Meta Pixel** for tracking
-  - **ESLint** and **Prettier** for code quality
+To get started, run the following commands in your local environment:
 
-## Getting Started
-
-### Prerequisites
-- **Node.js** (v18+)
-- **Yarn** or **npm**
-
-### Installation
-
-1. **Clone the repository**:
-    ```bash
-    git clone https://github.com/amaringonz/portfolio-v1.git
-    cd portfolio-v1
-    ```
-
-2. **Install dependencies**:
-    ```bash
-    yarn install
-    # or
-    npm install
-    ```
-
-3. **Run the development server**:
-    ```bash
-    yarn dev
-    # or
-    npm run dev
-    ```
-
-    Open [http://localhost:3000](http://localhost:3000) to view the site locally.
-
-## Building for Production
-
-To create a production-ready build:
-
-```bash
-yarn build
-# or
-npm run build
+```shell
+git clone --depth=1 https://github.com/amaringonz/portfolio-v1.git my-project-name
+cd my-project-name
+npm install
 ```
 
-## Project Structure
+All dependencies are kept up to date on a monthly basis.
 
-```plaintext
-portfolio-v1/
-│
-├── components/        # Reusable React components
-├── pages/             # Next.js page routing
-├── public/            # Static files
-├── styles/            # Global styles and Tailwind CSS
-├── utils/             # Utility functions
-├── .gitignore         # Ignored files for Git
-├── tsconfig.json      # TypeScript configuration
-└── package.json       # Dependencies and scripts
+Next, run the project in development mode with live reload by executing:
+```shell
+npm run dev
 ```
 
+Then, open [http://localhost:3000](http://localhost:3000) in your favorite browser to view your project in action.
 
-## Deployment
+### Contributions
 
-The project is deployed on [Vercel](https://vercel.com/), which supports automatic builds and continuous integration from GitHub.
+Everyone is welcome to contribute to this project! 🎉 Feel free to open an issue if you have any questions, encounter a bug, or want to suggest improvements. We're totally open to feedback and contributions to make this project even better.
 
-To deploy your own version:
+### License
 
-1. Push the repository to GitHub.
-2. Connect it to Vercel.
-3. Vercel will handle the build and deployment.
+Licensed under the MIT License, Copyright © 2024
 
-## Credits
+See [LICENSE](LICENSE) for more information.
 
-This project was developed using:
-
-- **Coded in**: [WebStorm](https://www.jetbrains.com/webstorm/) by JetBrains
-- **Hosted on**: [Vercel](https://vercel.com)
-- **Built with**:
-  - [Next.js](https://nextjs.org/)
-  - [Iconify](https://iconify.design/)
-  - [Tailwind CSS](https://tailwindcss.com/)
-  - [Inter](https://rsms.me/inter/)
-
-## License
-
-This project is licensed under the **MIT License**. See the [LICENSE](./LICENSE) file for details.
-
-## Contact
-
-Feel free to contact me via:
-
-- **LinkedIn**: [linkedin.com/in/amaringonz](https://linkedin.com/in/amaringonz)
-- **GitHub**: [github.com/amaringonz](https://github.com/amaringonz)
-- **Email**: [amaringonz.dev@gmail.com](amaringonz.dev@gmail.com)
+Made with ♥ by [amaringonz](https://github.com/amaringonz)
