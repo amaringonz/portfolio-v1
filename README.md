@@ -1,7 +1,7 @@
 # Portfolio-v1 made Next.js 14+, Tailwind CSS 3.4, and TypeScript
 ![Cover](https://github.com/user-attachments/assets/6db130ba-cad6-402a-9e25-5150fe00bdfe)
 
-🚀 Next.js Portfolio Template with App Router, Tailwind CSS, and TypeScript, built for an exceptional developer experience. It features Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Commitlint, VSCode integration, Tailwind CSS, Storybook, and multi-language (i18n) support, all optimized for seamless development. Ready for Next.js 15, this template is perfect for creating your own portfolio. Clone it and customize it to showcase your work. Check out the [live demo](https://amaringonz.vercel.app) at my personal portfolio.
+🚀 Next.js Portfolio Template with App Router, Tailwind CSS, and TypeScript, built for an exceptional developer experience. It features Next.js, TypeScript, ESLint, Prettier, Husky, Lint-Staged, Vitest (replacing Jest), Testing Library, Commitlint, VSCode integration, Tailwind CSS, Storybook, and multi-language (i18n) support, all optimized for seamless development. Ready for Next.js 15, this template is perfect for creating your own portfolio. Clone it and customize it to showcase your work. Check out the [live demo](https://amaringonz.dev) at my personal portfolio.
 
 ### Features
 Prioritizing developer experience, this template offers a highly flexible code structure, allowing you to keep only what's essential:
