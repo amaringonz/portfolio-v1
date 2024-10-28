@@ -6,7 +6,7 @@ import type { HTMLAttributes } from 'react';
 import React, { forwardRef, useMemo } from 'react';
 
 import { textVariants } from '@/components/ui/Text/textVariants';
-import { useMerge } from '@/utils';
+import { useMerge as twMerge } from '@/utils';
 
 type TextProps = {
   asChild?: boolean;
@@ -32,8 +32,7 @@ export const Text = forwardRef<HTMLDivElement, TextProps>(
     const Comp = asChild ? Slot : as;
 
     const mergedClassName = useMemo(() =>
-      // eslint-disable-next-line react-hooks/rules-of-hooks
-      useMerge(
+      twMerge(
         '',
         textVariants({
           size,
