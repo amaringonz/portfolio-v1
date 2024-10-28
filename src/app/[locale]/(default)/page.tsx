@@ -1,6 +1,6 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { Homepage } from 'src/views';
 
-import { Homepage } from '@/content';
 import type { MetaDataProps } from '@/types';
 import { ThemeConfig } from '@/utils';
 

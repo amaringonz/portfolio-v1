@@ -8,7 +8,7 @@ import { Column, DivisorLink } from '@/components/ui';
 const Navigator = () => {
   const t = useTranslations('UI');
 
-  const [activeSection, setActiveSection] = useState<string>('');
+  const [activeSection, setActiveSection] = useState<string>('about');
   const sectionsRef = useRef<Record<string, HTMLElement | null>>({});
   const sections = useMemo(() => ['about', 'experience'], []);
 
@@ -52,7 +52,7 @@ const Navigator = () => {
   }, [sections, activeSection]);
 
   return (
-    <Column as="nav" gap={4}>
+    <Column as="nav" gap={0}>
       <DivisorLink active={activeSection === 'about'} onClick={() => scrollToSection('about')}>
         {t('Accessibility.About.title')}
       </DivisorLink>

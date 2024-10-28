@@ -5,7 +5,9 @@ import React from 'react';
 import type { IconProps, LinkProps } from '@/components/ui';
 import { Icon, Link } from '@/components/ui';
 
-type IconExternalProps = {} & LinkProps & IconProps;
+type IconExternalProps = {
+  icon?: string;
+} & LinkProps & IconProps;
 
 export const IconExternal = ({ href, title, icon, variant, ...props }: IconExternalProps) => {
   return (

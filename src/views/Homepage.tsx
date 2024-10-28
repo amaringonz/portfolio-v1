@@ -40,15 +40,20 @@ const Homepage = () => {
   return (
     <Base>
       <Section title={t('Accessibility.About.title')} aria-label={t('Accessibility.About.description')} id="about">
-        <Text variant="secondary">
-          {t('Paragraphs.About.resume_1')}
-        </Text>
-        <Text variant="secondary">
-          {t('Paragraphs.About.resume_2')}
-        </Text>
-        <Text variant="secondary">
-          {t('Paragraphs.About.resume_3')}
-        </Text>
+        <Column>
+          <Text variant="secondary">
+            {t('Paragraphs.About.resume_1')}
+          </Text>
+          <Text variant="secondary">
+            {t('Paragraphs.About.resume_2')}
+          </Text>
+          <Text variant="secondary">
+            {t('Paragraphs.About.resume_3')}
+          </Text>
+          <Text variant="secondary">
+            {t('Paragraphs.About.resume_4')}
+          </Text>
+        </Column>
       </Section>
       <Section title={t('Accessibility.Experience.title')} aria-label={t('Accessibility.Experience.description')} id="experience">
         {getExperience()}
