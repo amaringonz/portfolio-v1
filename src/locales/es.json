@@ -36,13 +36,14 @@
     },
     "Paragraphs": {
       "Author": {
-        "title": "Desarrollador Full-Stack",
-        "resume": "Desarrollo experiencias digitales eficientes, escalables y accesibles, con soluciones de alto rendimiento y un enfoque en la optimización y usabilidad."
+        "title": "Lead Full-Stack Developer",
+        "resume": "Creo experiencias digitales envolventes, con un diseño impecable que destaca por su calidad, marca la diferencia y genera resultados tangibles."
       },
       "About": {
-        "resume_1": "Comencé a programar de manera autodidacta a los 13 años, motivado por mi curiosidad y el deseo de aprender. Sin acceso a tutores formales, me apoyé en tutoriales de YouTube, foros como Stackoverflow y libros de biblioteca. Aunque enfrenté numerosos retos y fracasos, estas experiencias me permitieron construir una sólida lógica de programación, enfocada en resolver problemas de manera eficiente y optimizar el código.",
-        "resume_2": "A lo largo de los años, he perfeccionado mis habilidades mediante la creación de proyectos reales, desde aplicaciones comerciales hasta plataformas de entretenimiento. Cada proyecto ha sido una oportunidad para expandir mis conocimientos y encontrar soluciones innovadoras a problemas complejos. Actualmente, me dedico a desarrollar soluciones tecnológicas personalizadas para empresas y particulares, siempre adaptándome a las necesidades específicas de cada cliente.",
-        "resume_3": "Mi enfoque va más allá de lo técnico; busco generar un impacto positivo tanto en el entorno de desarrollo como en la experiencia del usuario final. Me apasiona crear proyectos que no solo sean funcionales, sino que también aporten valor real y se diferencien por su impacto. Además de la programación, disfruto hacer ejercicio, participar en voluntariados, leer y pasar tiempo con mi familia."
+        "resume_1": "En 2014, mi primer acercamiento a la programación fue creando un chat para mi grupo de amigos de la escuela, donde compartíamos memes, organizábamos actividades y decidíamos dónde reunirnos para jugar. Me fascinó la inmediatez con la que podíamos comunicarnos, y fue entonces cuando descubrí mi pasión por la programación.",
+        "resume_2": "Más adelante, uno de mis primeros desafíos profesionales fue trabajar en Black Lips Tattoo Supply, donde tuve la oportunidad de desarrollar una página de eCommerce en una época en la que esta tecnología no era tan común. Implementé WooCommerce y, sin tener conocimiento de las plantillas disponibles, diseñé y personalicé una desde cero, lo que me permitió aprender mucho y enfrentar un reto significativo.",
+        "resume_3": "Hoy en día, me especializo en crear productos que beneficien tanto a los usuarios como a los dueños del producto, siempre buscando diferenciarme mediante la calidad y la implementación de metodologías ágiles. Me apasiona ese equilibrio entre diseño y desarrollo, asegurándome de que lo que construyo no solo se vea bien, sino que funcione impecablemente.",
+        "resume_4": "Fuera del trabajo, soy una persona que disfruta aprender y socializar. La lectura y mi rutina en el gimnasio me mantienen enfocado y disciplinado, algo que aplico tanto en mi vida personal como profesional, buscando siempre crear productos de la mejor calidad."
       },
       "Experience": {
         "1": {
