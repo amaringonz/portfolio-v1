@@ -24,7 +24,7 @@ export const DivisorLink = ({ active = false, children, ...props }: DivisorLinkP
     ), [active]);
 
   return (
-    <div className="group flex w-fit cursor-pointer items-center gap-2 py-3 uppercase" {...props}>
+    <div className="group flex w-fit cursor-pointer items-center gap-2 uppercase" {...props}>
       <span className={mergedHrClassName} />
       <span className={mergedTextClassName}>
         {children}
