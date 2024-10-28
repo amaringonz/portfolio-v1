@@ -4,7 +4,7 @@ import { useTranslations } from 'next-intl';
 import React from 'react';
 import { useFormatter } from 'use-intl';
 
-import { Badge, Column, Flex, Link, Text } from '@/components/ui';
+import { Badge, Base, Column, Flex, Link, Text } from '@/components/ui';
 import type { ExperienceProps } from '@/types';
 
 type ExperienceInterfaceProps = {
@@ -39,23 +39,27 @@ export const Experience = ({ expId, yearStart, yearEnd, languages, ...props }: E
   };
 
   return (
-    <Column {...props}>
-      <Text variant="secondary" size="xs" weight="semibold" transform="uppercase">
-        {getFormatYears(yearStart, yearEnd)}
-      </Text>
-      <Text as="h3" weight="medium" asChild>
-        <Link href="#">
-          {t(`Paragraphs.Experience.${expId}.title`)}
-        </Link>
-      </Text>
-      <Text variant="secondary" size="sm" className="leading-normal tracking-normal">
-        {t(`Paragraphs.Experience.${expId}.description`)}
-      </Text>
-      <Flex wrap className="mt-4">
-        {getLanguages(languages)}
-      </Flex>
-    </Column>
+    <Base className="flex flex-col gap-8 md:flex-row" {...props}>
+      <Base>
+        <Text variant="secondary" size="xs" weight="semibold" transform="uppercase" className="text-nowrap leading-6">
+          {getFormatYears(yearStart, yearEnd)}
+        </Text>
+      </Base>
+      <Column gap={4}>
+        <Text as="h3" weight="medium" asChild>
+          <Link href="#">
+            {t(`Paragraphs.Experience.${expId}.title`)}
+          </Link>
+        </Text>
+        <Text variant="secondary" size="sm" className="leading-normal tracking-normal">
+          {t(`Paragraphs.Experience.${expId}.description`)}
+        </Text>
+        <Flex wrap>
+          {getLanguages(languages)}
+        </Flex>
+      </Column>
+    </Base>
   );
 };
 
-Experience.displayName = 'Section';
+Experience.displayName = 'Experience';

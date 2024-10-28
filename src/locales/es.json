@@ -47,32 +47,38 @@
       },
       "Experience": {
         "1": {
-          "title": "Desarrollador Web",
-          "description": "Desarrollé una tienda de comercio electrónico en Shopify utilizando Liquid, HTML, CSS, JavaScript y jQuery. Personalicé la API de Shopify para la gestión de inventario y pedidos, e integré Meta Pixel y Google Analytics, logrando un aumento del 300% en las ventas mediante campañas publicitarias dirigidas. Aseguré el sitio con SSL, HSTS y gestioné pasarelas de pago mediante la API de Shopify."
+          "title": "Software Developer · media0x",
+          "description": "Diseño, desarrollo y despliegue de sitios web, colaboración en prototipos de diseños, aplicaciones móviles y experiencias digitales de alta calidad para diversos proyectos. También ejerzo liderazgo en el equipo de software, fomentando la colaboración cercana, compartiendo conocimientos y dirigiendo el desarrollo de herramientas internas que optimizan los procesos del equipo."
         },
         "2": {
-          "title": "Desarrollador de Sistemas de Gestión de Contenidos (CMS)",
-          "description": "Construí un CMS con NextJS, Node.js y MySQL, implementando un panel de administración en tiempo real utilizando WebSockets. Optimicé el rendimiento con caché Redis y mejoré la eficiencia de moderación en un 45%. Implementé protocolos de seguridad con Cloudflare, AWS WAF y autenticación JWT, defendiendo contra ataques de inyección SQL y DDoS."
+          "title": "Web Developer · Black Lips Tattoo Supply",
+          "description": "Lideré el desarrollo de una tienda en línea completamente funcional desde cero utilizando Shopify, desempeñando un papel clave en el éxito del proyecto. Desarrollé la plantilla desde cero utilizando Liquid, HTML, SCSS, JavaScript y jQuery, y personalicé la API de Shopify para gestionar el inventario y los pedidos mediante la integración con un sistema externo de la empresa. Además, integré Meta Pixel y Google Analytics para un seguimiento efectivo del rendimiento y eventos importantes de los compradores. Aseguré el sitio implementando SSL y HSTS, y gestioné la integración de pasarelas de pago como PayPal, Shopify Payments y Tilopay."
         },
         "3": {
-          "title": "Desarrollador Web",
-          "description": "Desarrollé un sitio web en WordPress usando PHP, HTML, CSS, JavaScript, integrando plugins personalizados para un sistema de reservas en línea y control de acceso basado en roles (RBAC) para la seguridad de los usuarios. Reduje la dependencia de servicios de terceros construyendo un backend autogestionado con tareas programadas (cron jobs) y copias de seguridad automáticas. Integré Stripe, PayPal, Google Pay y Apple Pay mediante APIs de pago para transacciones seguras."
+          "title": "CMS Developer · ITD Entertainment S. A",
+          "description": "Desarrollé un sistema de gestión de contenido (CMS) personalizado para mejorar la experiencia y el engagement de los usuarios en la industria de videojuegos, y diseñé un panel de administración interno que redujo el tiempo de moderación en un 45%, permitiendo la gestión en tiempo real del comportamiento de los jugadores. Además, optimicé la experiencia del usuario y aseguré un rendimiento estable del sistema, lo que incrementó la retención de usuarios en un 40%. Implementé medidas de seguridad con Cloudflare y AWS WAF, protegiendo eficazmente contra ataques de fuerza bruta y garantizando la fiabilidad del sistema."
+        },
+        "4": {
+          "title": "WordPress Developer · Black Space Tattoo Supply",
+          "description": "Diseñé y desarrollé un sitio web completamente personalizado en WordPress utilizando PHP, HTML5, CSS3 y JavaScript con jQuery, adaptado a las necesidades específicas del negocio. Implementé un sistema de reservas en línea, una plataforma de blogs y un sistema robusto de control de acceso basado en roles (RBAC) con funciones de auditoría, asegurando la seguridad e integridad de los datos. Reduje los costos de mantenimiento al implementar un sistema propietario autogestionado, disminuyendo la dependencia de servicios de terceros y optimizando las operaciones. Además, integré múltiples plataformas de pago, incluyendo Stripe, PayPal, Google Pay y Apple Pay, garantizando transacciones seguras y fluidas en todas las plataformas."
         }
       },
       "Footer": {
-        "paragraph_1": "Codificado en ",
-        "paragraph_2": "WebStorm (JetBrains)",
-        "paragraph_3": " alojado en ",
-        "paragraph_4": "Vercel",
-        "paragraph_5": " y construido con ",
-        "paragraph_6": "Next.js",
-        "paragraph_7": ", ",
-        "paragraph_8": "Iconify",
-        "paragraph_9": ", ",
+        "paragraph_1": "Diseñado en ",
+        "paragraph_2": "Figma",
+        "paragraph_3": " por ",
+        "paragraph_4": "@bchiang7",
+        "paragraph_5": " y programado en ",
+        "paragraph_6": "WebStorm",
+        "paragraph_7": ". Construido con ",
+        "paragraph_8": "Next.js",
+        "paragraph_9": " y ",
         "paragraph_10": "Tailwind CSS",
-        "paragraph_11": " e ",
-        "paragraph_12": "Inter",
-        "paragraph_13": "."
+        "paragraph_11": " desplegado con ",
+        "paragraph_12": "Vercel",
+        "paragraph_13": ". Todos los textos utilizan la familia",
+        "paragraph_14": " Inter",
+        "paragraph_15": "."
       }
     }
   }

@@ -3,7 +3,6 @@ import type { ThemeConfigProps } from '@/types';
 export const ThemeConfig: ThemeConfigProps = {
   author: 'Gabriel Marín González',
   shortAuthor: 'Gabriel Marín',
-  //
   network: [
     {
       type: 'GitHub',
@@ -26,7 +25,6 @@ export const ThemeConfig: ThemeConfigProps = {
       url: 'mailto:amaringonz.dev@gmail.com',
     },
   ],
-  //
   experience: [
     {
       expId: 1,
@@ -102,7 +100,6 @@ export const ThemeConfig: ThemeConfigProps = {
       ],
     },
   ],
-  //
   projects: [
     {
       projId: 1,

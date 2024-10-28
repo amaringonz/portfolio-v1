@@ -16,10 +16,12 @@ const Homepage = () => {
     }
 
     const sortExperienceFunction = (experience1: ExperienceProps, experience2: ExperienceProps): number => {
-      return (experience2?.yearStart?.getTime() - experience1?.yearStart?.getTime()
-        || experience1?.yearEnd?.getTime() - experience2?.yearEnd?.getTime());
+      return (experience2.yearStart.getTime() - experience1?.yearStart.getTime()
+        || experience1.yearEnd.getTime() - experience2?.yearEnd.getTime());
     };
-    const sortedExperience = ThemeConfig?.experience?.sort(sortExperienceFunction) || [];
+
+    const sortedExperience = ThemeConfig.experience.sort(sortExperienceFunction) || [];
+
     return (
       <Column gap={16}>
         {sortedExperience.map((experience) => {
