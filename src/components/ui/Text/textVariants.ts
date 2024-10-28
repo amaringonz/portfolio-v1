@@ -35,6 +35,12 @@ const textVariants = cva('', {
       primary: 'text-foreground',
       secondary: 'text-foreground-secondary',
     },
+    letterSpacing: {
+      normal: 'tracking-normal',
+      tight: 'tracking-tight',
+      wider: 'tracking-wider',
+      widest: 'tracking-widest',
+    },
   },
   defaultVariants: {
     size: 'base',
