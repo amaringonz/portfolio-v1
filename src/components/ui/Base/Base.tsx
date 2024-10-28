@@ -65,7 +65,7 @@ export const Flex = forwardRef<HTMLDivElement, BaseProps>((props, ref) => (
 Flex.displayName = 'Flex';
 
 export const Column = forwardRef<HTMLDivElement, BaseProps>((props, ref) => (
-  <Base ref={ref} display="flex-col" {...props} />
+  <Base ref={ref} display="flex-col" gap={props.gap ?? 4} {...props} />
 ));
 
 Column.displayName = 'Column';
