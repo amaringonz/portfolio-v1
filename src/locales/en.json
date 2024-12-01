@@ -1,1 +1,85 @@
-{}
+{
+  "Meta": {
+    "Home": {
+      "title": "{author}",
+      "description": "{author} is a Full-Stack Developer with extensive experience in .NET, JavaScript, PostgreSQL, and MySQL. Specializes in creating scalable solutions using cloud platforms (AWS, Azure, GCP). Expert in Next.js, React, and APIs, delivering efficient and maintainable code."
+    }
+  },
+  "UI": {
+    "Accessibility": {
+      "Network": {
+        "Github": {
+          "title": "GitHub",
+          "description": "Visit my GitHub profile"
+        },
+        "LinkedIn": {
+          "title": "LinkedIn",
+          "description": "Visit my LinkedIn profile"
+        },
+        "Instagram": {
+          "title": "Instagram",
+          "description": "Visit my Instagram profile"
+        },
+        "Email": {
+          "title": "Email",
+          "description": "Send me an email"
+        }
+      },
+      "About": {
+        "title": "About Me",
+        "description": "Learn more about my experience and skills"
+      },
+      "Experience": {
+        "title": "Experience",
+        "description": "Discover my professional background and notable projects"
+      }
+    },
+    "Paragraphs": {
+      "Author": {
+        "title": "Lead Full-Stack Developer",
+        "resume": "I create immersive digital experiences, with flawless designs that stand out for their quality, make a difference, and deliver tangible results."
+      },
+      "About": {
+        "resume_1": "In 2014, my first approach to programming was creating a chat for my school friends, where we shared memes, organized activities, and decided where to meet up for games. I was fascinated by the immediacy of communication, and that was when I discovered my passion for programming.",
+        "resume_2": "Later on, one of my first professional challenges was working at Black Lips Tattoo Supply, where I had the opportunity to develop an eCommerce site at a time when this technology was not very common. I implemented WooCommerce and, without prior knowledge of available templates, designed and customized one from scratch. This allowed me to learn a lot and overcome a significant challenge.",
+        "resume_3": "Today, I specialize in creating products that benefit both users and product owners, always striving to stand out through quality and the implementation of agile methodologies. I am passionate about the balance between design and development, ensuring that what I build not only looks great but also works flawlessly.",
+        "resume_4": "Outside of work, I am someone who enjoys learning and socializing. Reading and my gym routine keep me focused and disciplined—values I apply to both my personal and professional life, always striving to create the highest-quality products."
+      },
+      "Experience": {
+        "1": {
+          "title": "Software Developer · media0x",
+          "description": "Design, development, and deployment of websites; collaboration on design prototypes, mobile applications, and high-quality digital experiences for various projects. I also lead the software team, fostering close collaboration, sharing knowledge, and directing the development of internal tools to optimize team processes."
+        },
+        "2": {
+          "title": "Web Developer · Black Lips Tattoo Supply",
+          "description": "Led the development of a fully functional online store from scratch using Shopify, playing a key role in the project's success. I developed the template from scratch using Liquid, HTML, SCSS, JavaScript, and jQuery, and customized Shopify’s API to manage inventory and orders by integrating it with an external company system. Additionally, I integrated Meta Pixel and Google Analytics for effective performance tracking and key buyer event monitoring. Secured the site by implementing SSL and HSTS, and managed the integration of payment gateways like PayPal, Shopify Payments, and Tilopay."
+        },
+        "3": {
+          "title": "CMS Developer · ITD Entertainment S. A",
+          "description": "Developed a custom Content Management System (CMS) to enhance user experience and engagement in the video game industry, and designed an internal administration panel that reduced moderation time by 45%, enabling real-time management of player behavior. Furthermore, I optimized user experience and ensured stable system performance, which increased user retention by 40%. I implemented security measures using Cloudflare and AWS WAF, effectively protecting against brute force attacks and ensuring system reliability."
+        },
+        "4": {
+          "title": "WordPress Developer · Black Space Tattoo Supply",
+          "description": "Designed and developed a fully customized WordPress website using PHP, HTML5, CSS3, and JavaScript with jQuery, tailored to the business's specific needs. I implemented an online booking system, a blogging platform, and a robust role-based access control (RBAC) system with auditing features, ensuring data security and integrity. Reduced maintenance costs by implementing a proprietary self-managed system, decreasing dependency on third-party services and optimizing operations. Additionally, I integrated multiple payment platforms, including Stripe, PayPal, Google Pay, and Apple Pay, ensuring secure and seamless transactions across all platforms."
+        }
+      },
+      "Footer": {
+        "paragraph_1": "Designed in ",
+        "paragraph_2": "Figma",
+        "paragraph_3": " by ",
+        "paragraph_4": "@bchiang7",
+        "paragraph_5": " and coded in ",
+        "paragraph_6": "WebStorm",
+        "paragraph_7": ". Built with ",
+        "paragraph_8": "Next.js",
+        "paragraph_9": " and ",
+        "paragraph_10": "Tailwind CSS",
+        "paragraph_11": " deployed using ",
+        "paragraph_12": "Vercel",
+        "paragraph_13": ". All texts use the ",
+        "paragraph_14": " Inter",
+        "paragraph_15": " font family."
+      }
+    }
+  }
+}
